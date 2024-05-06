@@ -1,0 +1,37 @@
+body {
+  background: black;
+  color: #f4f4f4;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.conteudoCentral {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.conteudoLateralEsquerda {
+  position: fixed;
+  display: block;
+  width:17vw;
+  background: black;
+  line-height: 20px;
+}
+
+.conteudoLateralDireita {
+  background: black;
+  width:20vw;
+}
+
+.conteudoCentral {
+  margin-left: 25%;
+  width:65vw;
+  background: black;
+}
+
