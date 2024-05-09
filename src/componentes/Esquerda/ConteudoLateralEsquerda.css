@@ -29,3 +29,9 @@ ul li{
     margin-top: auto;
   }
 
+.itensInferiores{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
