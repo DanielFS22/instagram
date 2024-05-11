@@ -1,0 +1,71 @@
+
+.Nomeinsta{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nomeinsta p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 40px 0px 15px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.sugestoes h3{
+    margin: 20px;
+}
+.footer{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+.footer button{
+    margin: 0px 5px;
+    border: none;
+    background-color: black;
+    color: gray;
+    cursor: pointer;
+}
+.instagramFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.footer button:hover{
+    color: white;
+}
+.Nomeinsta img{
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.Nomeinsta button{
+    padding-right: 50px;
+    border: none;
+    color: rgb(0, 145, 255);
+    background-color: black;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    font-size: large;
+}
+
+.Nomeinsta button:hover{
+    color: white;
+}
+
+.sugestoes{
+    display: flex;
+    flex-direction: column;
+}
+

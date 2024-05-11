@@ -1,0 +1,34 @@
+.Post {
+    width: 500px;
+}
+
+.Post .card-header {
+    background: rgb(12, 12, 12);;
+}
+
+.card-header .Verificado{
+    margin-bottom: 13px;
+    color: #0093f2;
+}
+.card-header{
+    margin-top: 20px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+.card-header img{
+    width: 40px;
+    height: 40px;   
+    border-radius: 50%;
+}
+
+.Post .card-body img {
+   width: 100%;
+}
+
+svg{
+    width: 30px;
+    height: 30PX;
+    margin-top: 20px;
+    margin-right: 5px;
+}

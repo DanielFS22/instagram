@@ -1,0 +1,37 @@
+body {
+  background: black;
+  color: #f4f4f4;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+.ConteudoLateralDireita,
+.conteudoLateralEsquerda,
+.ConteudoCentral {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.conteudoLateralEsquerda {
+  position: fixed;
+  display: block;
+  width:17vw;
+  background: black;
+  line-height: 20px;
+}
+
+.ConteudoLateralDireita {
+  background: black;
+  width: 25vw;
+}
+
+.ConteudoCentral {
+  margin-left: 17vw;
+  width:65vw;
+  background: black;
+}
+
