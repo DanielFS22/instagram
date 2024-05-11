@@ -1,2 +1,0 @@
-import '../Direita/ConteudoLateralDireita.css'
-
